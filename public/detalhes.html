@@ -12,6 +12,49 @@
       <p id="descricao"></p>
       <p id="autor"></p>
     </div>
-    
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get("id");
+  
+        const noticias = [
+          {
+            id: "1",
+            titulo: "Notícia 1",
+            descricao: "Detalhes da notícia 1",
+            autor: "Autor 1",
+          },
+          {
+            id: "2",
+            titulo: "Notícia 2",
+            descricao: "Detalhes da notícia 2",
+            autor: "Autor 2",
+          },
+          {
+            id: "3",
+            titulo: "Notícia 3",
+            descricao: "Detalhes da notícia 3",
+            autor: "Autor 3",
+          },
+          {
+            id: "4",
+            titulo: "Notícia 4",
+            descricao: "Detalhes da notícia 4",
+            autor: "Autor 4",
+          },
+        ];
+  
+        const noticia = noticias.find((noticia) => noticia.id === id);
+  
+        if (noticia) {
+          document.getElementById("titulo").textContent = noticia.titulo;
+          document.getElementById("descricao").textContent = noticia.descricao;
+          document.getElementById(
+            "autor"
+          ).textContent = `Autor: ${noticia.autor}`;
+        } else {
+          document.getElementById("titulo").textContent =
+            "Notícia não encontrada";
+        }
+      </script>
   </body>
 </html>
