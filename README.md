@@ -12,15 +12,15 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Gabriel Pará
+- Matricula: 1598631
+- Proposta de projeto escolhida: site de notícias
+- Breve descrição sobre seu projeto: Site com banner principal, menu de navegação e outras notícias abaixo do banner, responsividade para todos os tipos de aparelhos, mecanismo de busca por categoria e caractere, rodapé com informações sobre o site.
 
 ## Print da versão responsiva com CSS puro
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Site detalhes](image.png)
 
 ## Print da versão responsiva com Bootstrap
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Site principal](image-1.png)
